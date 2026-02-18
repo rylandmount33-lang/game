@@ -1,0 +1,43 @@
+{
+    "name": "game😁",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-scaling": "github:jwunderl/pxt-scaling#v0.1.2",
+        "multiplayer": "*",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.8",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#v0.1.2",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "controller": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "browser-events": "*",
+        "corgio": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.0",
+        "tag": "v4.0.5",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/8b2b5c4d581645893dee49bb828fac33726d4556",
+        "target": "4.0.5",
+        "pxt": "12.2.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
